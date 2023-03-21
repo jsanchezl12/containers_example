@@ -3,6 +3,7 @@ Es un ejemplo de manejo de contenedores.
 
 Este ejemplo utiliza la imagen base de Ubuntu, actualiza los paquetes del sistema, instala el paquete nginx, copia un archivo de configuración y expone el puerto 80. También establece el comando por defecto que se ejecutará al iniciar un contenedor de esta imagen.
 
+# LAB 1
 ## Pasos:
 
 1. Crear un archivo de Dockerfile con la configuracion

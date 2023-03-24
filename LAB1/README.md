@@ -29,12 +29,19 @@ docker run -d -p 8080:80 --name nginx1 imgnginx:1.0
 docker ps
 ```
 
-5. Verificar que este corriendo en el puerto 8080
+5. Revisar dentro del contenedor
+```
+docker exec -it <container_name> bash
+apt-get update
+apt-get install vim
+```
+
+6. Verificar que este corriendo en el puerto 8080
 ```
 curl localhost:8080
 ```
 
-6. Detener el contenedor
+7. Detener el contenedor
 ```
 docker stop nginx1
 ```
